@@ -1,0 +1,26 @@
+{
+  "name": "ts-socket.io-client",
+  "version": "0.0.1",
+  "description": "socket.io client written in ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "supertiger1234",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "ts-transformer-keys": "^0.4.2",
+    "ws": "^7.3.1",
+    "yeast": "^0.1.2"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^16.2.3",
+    "@types/node": "^13.13.0",
+    "@types/node-fetch": "^2.5.7",
+    "@types/ws": "^7.2.6",
+    "@types/yeast": "^0.1.1",
+    "typescript": "^3.9.7"
+  }
+}
